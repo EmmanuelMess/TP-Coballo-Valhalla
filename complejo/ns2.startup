@@ -1,0 +1,2 @@
+ifconfig eth0 8.8.4.4/24 up
+

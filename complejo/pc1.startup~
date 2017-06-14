@@ -1,0 +1,1 @@
+ifconfig eth0 inet6 add 2100::2/64 up
