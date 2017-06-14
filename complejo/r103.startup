@@ -1,3 +1,5 @@
 ifconfig eth0 100.0.13.3/24 up
 ifconfig eth1 100.0.23.3/24 up
 echo "FALTAAAAAAA ifconfig eth2 100.1.12.1/24 up"
+route add -net 100.0.12.0 netmask 255.255.255.0 gw 100.0.13.1 dev eth0 
+route add -net 100.1.22.0 netmask 255.255.255.0 gw 100.0.23.2 dev eth1

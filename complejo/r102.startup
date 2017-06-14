@@ -1,3 +1,5 @@
 ifconfig eth2 100.1.22.1/24 up
 ifconfig eth0 100.0.23.2/24 up
 ifconfig eth1 100.0.12.2/24 up
+route add -net 100.1.12.0 netmask 255.255.255.0 gw 100.1.22.2 dev eth2
+route add -net 2100::/64 gw 100.0.23.0 dev eth0
