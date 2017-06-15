@@ -9,5 +9,5 @@ route add -net 150.10.100.0 netmask 255.255.255.252 gw 100.0.12.1 dev eth1
 route add -net 150.10.100.0 netmask 255.255.255.252 gw 100.0.23.3 dev eth0
 route add -net 150.50.100.0 netmask 255.255.255.252 gw 100.0.12.1 dev eth1
 route add -net 150.50.100.0 netmask 255.255.255.252 gw 100.0.23.3 dev eth0
-route add -net 2100::/64 gw 100.0.23.3 dev eth0 (no se cual es la mascara /64 pa' ponerla)
-route add -net 2100::/64 gw 100.0.12.1 dev eth1 (no se cual es la mascara /64 pa' ponerla)
+route add -net 2100::/64 gw 100.0.23.3 dev eth0 #(no se cual es la mascara /64 pa' ponerla)
+route add -net 2100::/64 gw 100.0.12.1 dev eth1 #(no se cual es la mascara /64 pa' ponerla)

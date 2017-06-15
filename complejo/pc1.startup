@@ -1,2 +1,3 @@
 ifconfig eth0 add 2100::2/64 up
+
 route add default gw 2100::1
