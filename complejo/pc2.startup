@@ -1,3 +1,4 @@
 ifconfig eth0 100.1.23.2/24 up
-route add default gw 100.1.23.1
+
+route add default gw 100.1.23.1 
 
