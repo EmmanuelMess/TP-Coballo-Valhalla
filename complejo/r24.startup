@@ -1,18 +1,4 @@
 ifconfig eth0 20.0.23.2/25 up
 ifconfig eth1 8.8.4.1/24 up
 
-route add -net 20.0.23.128 netmask 255.255.255.128 gw 8.8.4.2 eth1
-route add -net 20.0.23.128 netmask 255.255.255.128 gw 8.8.4.5 eth1
-route add -net 20.0.23.128 netmask 255.255.255.128 gw 20.0.23.1 eth0
 
-route add -net 20.0.12.0 netmask 255.255.255.0 gw 8.8.4.2 eth1
-route add -net 20.0.12.0 netmask 255.255.255.0 gw 8.8.4.5 eth1
-route add -net 20.0.12.0 netmask 255.255.255.0 gw 20.0.23.1 eth0
-
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 8.8.4.2 eth1
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 8.8.4.5 eth1
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 20.0.23.1 eth0
-
-route add -net 150.20.200.0 netmask 255.255.255.252 gw 8.8.4.2 eth1
-route add -net 150.20.200.0 netmask 255.255.255.252 gw 8.8.4.5 eth1
-route add -net 150.20.200.0 netmask 255.255.255.252 gw 20.0.23.1 eth0

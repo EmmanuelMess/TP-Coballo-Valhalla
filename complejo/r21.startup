@@ -2,30 +2,5 @@ ifconfig eth0 20.0.12.1/24 up
 ifconfig eth1 150.10.20.2/30 up
 ifconfig eth2 20.0.23.131/25 up
 
-route add -net 30.0.2.0 netmask 255.255.255.0 gw 150.10.20.1 dev eth1
-route add -net 30.0.2.0 netmask 255.255.255.0 gw 20.0.23.129 dev eth2
-route add -net 30.0.2.0 netmask 255.255.255.0 gw 20.0.12.2 dev eth0
 
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 150.10.20.1 dev eth1
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 20.0.23.129 dev eth2
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 20.0.12.2 dev eth0
 
-route add -net 30.0.12.0 netmask 255.255.255.0 gw 150.10.20.1 dev eth1
-route add -net 30.0.12.0 netmask 255.255.255.0 gw 20.0.23.129 dev eth2
-route add -net 30.0.12.0 netmask 255.255.255.0 gw 20.0.12.2 dev eth0
-
-route add -net 150.10.100.0 netmask 255.255.255.252 gw 150.10.20.1 dev eth1
-route add -net 150.10.100.0 netmask 255.255.255.252 gw 20.0.23.129 dev eth2
-route add -net 150.10.100.0 netmask 255.255.255.252 gw 20.0.12.2 dev eth0
-
-route add -net 150.10.200.0 netmask 255.255.255.252 gw 150.10.20.1 dev eth1
-route add -net 150.10.200.0 netmask 255.255.255.252 gw 20.0.23.129 dev eth2
-route add -net 150.10.200.0 netmask 255.255.255.252 gw 20.0.12.2 dev eth0
-
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 150.10.20.1 dev eth1
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 20.0.23.129 dev eth2
-route add -net 8.8.4.0 netmask 255.255.255.0 gw 20.0.12.2 dev eth0
-
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 150.10.20.1 dev eth1
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 20.0.23.129 dev eth2
-route add -net 20.0.13.0 netmask 255.255.255.0 gw 20.0.12.2 dev eth0
